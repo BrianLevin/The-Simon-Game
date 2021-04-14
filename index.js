@@ -28,8 +28,14 @@ $(".btn").click(function(){
 
  playSound(userChosenColor);
 
-});
+checkAnswer(userClickedPattern.length-1);
 
+});
+ function checkAnswer(currentLevel) {
+
+
+
+ }
 
 function nextSequence(){
 level++;
