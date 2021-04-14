@@ -8,6 +8,17 @@ var gamePattern= [];
 
 var userClickedPattern= [];
 
+var level= 0;
+
+$(document).keypress(function(){
+
+    if (!started) {
+
+
+    }
+
+});
+
 $(".btn").click(function(){
  var userChosenColor = $(this.attr("id"))
 
