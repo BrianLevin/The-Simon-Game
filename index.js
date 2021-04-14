@@ -13,7 +13,9 @@ var level= 0;
 $(document).keypress(function(){
 
     if (!started) {
-
+$("#level-title").text("Level " + level);
+nextSequence();
+started = true;
 
     }
 
@@ -30,6 +32,9 @@ $(".btn").click(function(){
 
 
 function nextSequence(){
+level++;
+
+$("#level-title").text("Level " + level);
 
  var randomNumber= Math.floor(Math.random() *4 );   
  var randomChosenColor =buttonColors[randomNumber]; 
