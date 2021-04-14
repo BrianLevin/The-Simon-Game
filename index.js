@@ -33,9 +33,19 @@ audio.play();
 
 }
 
-function playSound(name) {
+function playSound(randomChosenColor) {
     var audio = new Audio ("sounds/" + randomChosenColor + ".mp3");
     audio.play();
+
+}
+
+function animatePress (currentColor) {
+$("#" + currentColor).addClass("pressed");
+
+setTimeout (function(){
+
+    $('#' + currentColor).removeClass ("pressed");
+}, 100);
 
 }
 
