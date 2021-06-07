@@ -3,18 +3,23 @@
 
  ## Application description:
 
-A Javascript  and jQuery application  that allows the user to play a guessing game called the Simon Game. The game consists of ramdomly choosing  a colored square that  and blinks makes a unique sound on the screen. For each square chosen correctly, the player has to memorize the previous chosen squares plus a new square that will be activiated in sucession.
+A Javascript  and jQuery application  that allows the user to play a guessing game called the Simon Game. The game consists of ramdomly choosing  a colored square that   blinks and makes a unique sound on the screen. For each square chosen correctly, the player has to memorize the previous chosen squares plus a new square that will be activiated in sucession.
  
 
- ## Click [here]( https://brianlevin.github.io/Drum-Kit/) for the live app. 
+ ## Click [here]( https://brianlevin.github.io/The-Simon-Game/) for the live app. 
  
- This is the home screen:
+ This is the start screen:
  
- ![Home Screenshot](images/home.png)
+ ![Home Screenshot](images/start.png)
  
- These are differant sounds each button will make when clicked:
  
-## Click [here](https://drive.google.com/file/d/1UjyVS5TsmuHTYbb052fLtU1xjosxhSly/view?usp=sharing) to view sounds.
+  This is the game over screen once the playe gets the answer wrong:
+ 
+ ![Home Screenshot](images/gameover.png)
+ 
+ This is a recorded example of the game:
+ 
+## Click [here](https://drive.google.com/file/d/1u8cjI6JsV-HJWMvvDBXM2aOJ-hLqVg66/view?usp=sharing) to view video.
   
   
 
@@ -24,6 +29,7 @@ A Javascript  and jQuery application  that allows the user to play a guessing ga
 - HTML
 - CSS
 - Javascript
+- jQuery
 
 ## Email:
 
